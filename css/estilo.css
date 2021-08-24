@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+}
+
+nav.navbar-menu{
+    background: #E1C498;
+}
+
+.navbar-menu2{
+    background: #FF7904;
+    position: absolute;
+}
+
+nav.navbar-menu ul li a{
+    color: #FF7904;
+    font-family: 'Segoe UI';
+}
+
+nav.navbar-menu ul li a:hover{
+    color: black;
+    font-size: 1.1em;
+}
+
+.caixa{
+    padding-top: 100px;
+    padding-bottom: 10px;
+}
+
+footer{
+    background: #E1C498;
+    padding: 50px 0px 20px 0px;
+    color: #FF7904;
+    position: relative;
+}
+
+footer ul li a{
+    color: #FF7904;
+    font-family: 'Segoe UI';
+}
+
+footer ul li a:hover{
+    color: black;
+    font-size: 1.1em;
+}
+
+.titulo{
+    color: #FF7904;
+    font-family: 'Segoe UI';
+}
+
+.marginCard{
+    margin-top: 70px;
+}
+
+.alinha{
+    margin-left: 80px;
+}
+
+.alinhaV{
+    margin-left: 55px;
+}
+
+.alinhaAlt{
+    margin-top: 40px;
+}
+
+.altura{
+    height: 20px;
+}
+
+.marginCarrosel{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.imgcarrosel{
+    max-width: 100%;
+    width: 600px;
+    height: 450px;
+    object-fit: cover;
+}
+

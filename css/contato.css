@@ -1,0 +1,77 @@
+.header {
+  margin-bottom: 100px;
+}
+
+.formulario {
+  position: absolute;
+  left: 200px;
+  top: 220px;
+}
+
+.dados h1{
+  font-size: 72px;
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+  color: black;
+}
+
+.dados h1:after {
+  content: "";
+  display: block;
+  width: 1.5px;
+  height: 400px;
+  background: gray;
+  margin: 40px auto 50px auto;
+}
+
+.dados label {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  left: 50px;
+}
+
+.dados input {
+  width: 470px;
+  height: 40px;
+  left: 50px;
+  outline: none;
+  border: 1.2px solid black;
+  margin-bottom: 15px;
+}
+
+.dados textarea {
+  width: 470px;
+  height: 90px;
+  left: 50px;
+  outline: none;
+  border: 1.2px solid black;
+  margin-bottom: 15px;
+}
+
+.dados button {
+  background-color: #B0E0E6;
+  color: black;
+  font-size: 17px;
+  border: 1.2px solid black;
+}
+
+.info {
+  position: absolute;
+  right: 450px;
+  top: 220px;
+}
+
+.info h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  left: 50px;
+  color: black;
+}
+
+.info p {
+  font-size: 16px;
+  color: black;
+}
